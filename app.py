@@ -18,7 +18,7 @@ stream = audio.open(format=pyaudio.paFloat32, channels=1, rate=SAMPLE_RATE,
 
 # โหลดโมเดลแค่ครั้งเดียว
 if 'model' not in st.session_state:
-    st.session_state.model = tf.keras.models.load_model("C:/Users/M S I/Documents/GitHub/AutoPitch/PerfectPitch2/MelNoteClassifierV6.h5")  # ระบุ path โมเดลของคุณ
+    st.session_state.model = tf.keras.models.load_model("MelNoteClassifierV6.h5")  # ระบุ path โมเดลของคุณ
 
 # ฟังก์ชันแปลง MIDI เป็นชื่อโน้ต
 def midi_to_note(midi):
