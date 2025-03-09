@@ -60,7 +60,7 @@ def get_mel_from_audio():
         return None
 
 # โหลดโมเดล Autopitch ที่ฝึกไว้
-model = tf.keras.models.load_model("MelNoteClassifier.h5")  # ระบุ path โมเดลของคุณ
+model = tf.keras.models.load_model("MelNoteClassifierV6.h5")  # ระบุ path โมเดลของคุณ
 
 def midi_to_note(midi):
     """
