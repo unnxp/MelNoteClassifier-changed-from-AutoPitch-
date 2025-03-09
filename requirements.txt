@@ -1,7 +1,7 @@
 keras==3.9.0
 librosa==0.10.2.post1
 matplotlib==3.10.1
-numpy>=1.26.0,<2.1.0
+numpy>=1.26.4,<2.1.0
 PyAudio==0.2.14
 scipy==1.15.2
 streamlit==1.43.1
