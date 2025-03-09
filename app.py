@@ -94,12 +94,6 @@ if 'is_recording' not in st.session_state:
 def toggle_recording():
     st.session_state.is_recording = not st.session_state.is_recording
 
-# ตรวจสอบว่าไฟล์พื้นหลังมีอยู่ใน path หรือไม่
-background_path = "C:/Users/M S I/Desktop/PerfectPitch2/noisy-grid.png"  # ระบุ path ของภาพพื้นหลังในเครื่อง
-if os.path.exists(background_path):
-    background_url = f'file://{os.path.abspath(background_path)}'
-else:
-    background_url = "https://www.transparenttextures.com/patterns/minimalist-lattice.png"  # ใช้ URL สำรอง
 
 st.markdown(f"""
     <style>
