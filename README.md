@@ -4,6 +4,6 @@ AutoTune verion Machine learning
 ขั้นตอนในการใช้งาน
 -ดาวโหลด git นี้
 -cd โฟเดอร๋ที่ติดตั้ง git นี้
--ติดตั้ง requirements.txt
+-ติดตั้ง requirements.txt (python ver. 3.10)
 -พิมพ์บน terminal หรือ shell ว่า "streamlit run app.py"
 -โปรแกรมจะเด้งไปที่ localhost
